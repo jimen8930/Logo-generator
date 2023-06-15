@@ -1,7 +1,7 @@
-function generateMarkdown(companyName) {
+function generateLogo(companySVG) {
     // Logic to generate a logo based on the company name
     // This is a simplified example
-    return `Logo for ${companyName}`;
+    return `Logo for ${companySVG}`;
   }
   
-  module.exports = generateMarkdown;
+  module.exports = generateLogo;
