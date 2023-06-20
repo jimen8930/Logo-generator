@@ -32,6 +32,22 @@ function promptUser() {
     .then((answers) => {
       // Generate the logo
     const { shape, shapeColor, text, textColor } = answers;
+
+    let logo;
+      switch (shape) {
+        case 'Triangle':
+          logo = new Triangle ();
+          break;
+          case 'Square':
+            logo = new Square ();
+            break;
+            case 'Circle':
+              logo = new Circle ();
+              break;
+              default:
+                 console.log('Invlaid shape selection.');
+                 return;
+      }
     })
   };
 
