@@ -48,6 +48,9 @@ function promptUser() {
                  console.log('Invlaid shape selection.');
                  return;
       }
+      logo.setColor(shapeColor);
+      logo.setText(text);
+      logo.setTextColor(textColor);
     })
   };
 
