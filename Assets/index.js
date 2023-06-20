@@ -31,8 +31,7 @@ function promptUser() {
     ])
     .then((answers) => {
       // Generate the logo
-    const svg = generateLogo(answers.color, answers.shape, answers.text);
-
+    const { shape, shapeColor, text, textColor } = answers;
     })
   };
 
