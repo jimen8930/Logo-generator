@@ -1,7 +1,7 @@
 const Square =require("../lib/shapes.js");
 
 describe("Square", () => {
-    Test("renders a square SVG element with optional text", () => {
+    test("renders a square SVG element with optional text", () => {
         const square = new Square();
 
         const expectedSVG =` 
@@ -10,5 +10,6 @@ describe("Square", () => {
         ${circle.text ? `<text x="150" y="110" text-anchor="middle" fill="${circle.textColor}" font-size="40" alignment-baseline="middle">${circle.text}</text>` : ''}
       </svg>
       `;
+      expect(square.render()).toEqual(expectedSVG);
     });
 });

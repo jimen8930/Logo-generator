@@ -1,5 +1,5 @@
 // Constructor Arithmetic is imported.
-const Shape =require("./shapes.js");
+const Shape =require("../lib/shapes");
 // A testing suite for the logo is created.
 describe('Shape', () => {
     describe ('setColor', () => {
