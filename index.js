@@ -14,17 +14,19 @@ function promptUser() {
         message: 'Enter up to three caharacters for your logo.',
       },
       {
-          type: 'list',
+          type: 'input',
           name: 'textColor',
           message: 'Pick a text color you will like for your logo.',
+          
         },
         {
           type: 'list',
           name: 'shape',
           message: 'Pick a shape for your logo.',
+          choices: ["Trinagle", "Circle", "Square"],
         },
         {
-          type: 'list',
+          type: 'input',
           name: 'shapeColor',
           message: 'Pick a color for your shape.',
         },
