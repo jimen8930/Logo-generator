@@ -1,7 +1,13 @@
 // Constructor Arithmetic is imported.
-const { Triangle, Square, Circle } = require("./shapes.js");
-
+const Shape =require("./shapes.js");
 // A testing suite for the logo is created.
-describe('Shape Classes', () => {
-    
-})
+describe('Shape', () => {
+    describe ('setColor', () => {
+        it('should set the color property', () => {
+            const shape = new Shape();
+            shape.setColor('red');
+            expect(shape.color).toBe('red');
+
+        });
+    });
+});
