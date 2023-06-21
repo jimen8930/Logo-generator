@@ -51,18 +51,21 @@ function promptUser() {
       logo.setColor(shapeColor);
       logo.setText(text);
       logo.setTextColor(textColor);
-    })
+
+      const svg = logo.render();
+// This is the function to write the svg file for the logo.
+
+      fs.writeFile('logo.svg', svg, (err) => {
+        if (err) {
+          console.error('Error saving the logo:', err);
+        } else {
+          console.log('Logo saved as logo.svg');
+        }
+      });
+    });
   };
 
 
-// This is the function to write the svg file for the logo.
-fs.writeFile('logo.svg', svg, (err) => {
-  if (err) {
-    console.error('Error saving the logo:', err);
-  } else {
-    console.log('Logo saved as logo.svg');
-  }
-});
 
 
 
