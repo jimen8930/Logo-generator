@@ -22,7 +22,7 @@ function promptUser() {
           type: 'list',
           name: 'shape',
           message: 'Pick a shape for your logo.',
-          choices: ["Trinagle", "Circle", "Square"],
+          choices: ["Triangle", "Circle", "Square"],
         },
         {
           type: 'input',
