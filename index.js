@@ -33,7 +33,7 @@ function promptUser() {
     .then((answers) => {
       // Generate the logo
     const { shape, shapeColor, text, textColor } = answers;
-
+// The logic using switch case
     let logo;
       switch (shape) {
         case 'Triangle':
@@ -65,7 +65,7 @@ function promptUser() {
       });
     });
   };
-
+// This function is needed for the array of questions to be prompted
   promptUser();
 
 

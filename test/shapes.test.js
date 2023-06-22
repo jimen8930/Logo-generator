@@ -1,6 +1,7 @@
 const { Triangle, Square, Circle } = require("../lib/shapes");
-
+// Test suite using the describe function
 describe("Triangle", () => {
+  // Test code to render the shape
   test("renders a triangle SVG with the specified color", () => {
     const triangle = new Triangle();
     triangle.setColor("#FF0000");
