@@ -1,7 +1,7 @@
 // This includes packages needed for this application which are the file system, inquire package, and the pathway for the generate logo. 
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { Triangle, Square, Circle } = require("./lib/shapes");
+const { Triangle, Square, Circle } = require('./lib/shapes');
 
 // Array of questions for user input
 function promptUser() {
@@ -10,7 +10,7 @@ function promptUser() {
       {
         type: 'input',
         name: 'text',
-        message: 'Enter up to three caharacters for your logo.',
+        message: 'Enter up to three characters for your logo.',
       },
       {
           type: 'input',
@@ -65,6 +65,8 @@ function promptUser() {
       });
     });
   };
+
+  promptUser();
 
 
 
