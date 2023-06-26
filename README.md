@@ -16,7 +16,7 @@
 To use the logo generator, you need to install Node.js. You can download and install Node.js from the official website: Node.js. After installing Node.js, you should open the command line and run npm install to install the required dependencies. Also, you need to install jest to run the test in the command by typing npm install jest.  Make sure to include the dependencies needed to run a unit test. 
 
 ## Usage
-To use the README Generator, refer to these steps: Open your terminal or command prompt. Navigate to the project directory. Run the command node index.js to start the application. You will be prompted with a series of questions about your project. Answer each question by providing the requested information. Once you have answered all the questions, the application will generate a README.md file. Find the generated README.md file in the project directory. 
+To use the README Generator, refer to these steps: Open your terminal or command prompt. Navigate to the project directory. Run the command node index.js to start the application. You will be prompted with a series of questions about your project. Answer each question by providing the requested information. Once you have answered all the questions, the application will generate a logo svg file. 
 
 ## License
 https://opensource.org/licenses/MIT
